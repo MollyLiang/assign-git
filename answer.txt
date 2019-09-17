@@ -1,4 +1,8 @@
 • What is a gitignore file and what should it include for a Java project?
+.gitignore tells git which files (or patterns) it should ignore. It's usually used to avoid committing transient files from your working directory that aren't useful to other collaborators, such as compilation products, temporary files IDEs create, etc.
 • What does fast-forward in Git mean?
+In certain situations, Git does a fast forward when you merge a branch that is ahead of your checked-out branch
 • Why should you have different branches?
+Branches are what we need to solve these problems. Because a branch represents exactly such a context in a project and helps you keep it separate from all other contexts
 • In a project how many remote Git repositories do you usually have?
+Usually 1
